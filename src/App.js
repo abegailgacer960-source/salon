@@ -89,10 +89,6 @@ function LogoMark() {
   );
 }
 
-function Chip({ children }) {
-  return <span className="Chip">{children}</span>;
-}
-
 function Card({ title, subtitle, children, actions }) {
   return (
     <section className="Card">
